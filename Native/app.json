@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "scheme": "SchoolWay",
+    "name": "SchoolWay",
+    "slug": "Native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Logo_green.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/Logo_green.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Logo_green.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.Native"
+    },
+    "web": {
+      "favicon": "./assets/Logo_green.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
