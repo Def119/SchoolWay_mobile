@@ -6,6 +6,7 @@ import ThemedView from '../components/ThemedView';
 import ThemedCard from '../components/ThemedCard'; 
 import ThemedLogo from '../components/ThemedLogo';
 import ThemedText from '../components/ThemedText';
+import Spacer from '../components/Spacer';
 
 const Home = () => {
     // const colorTheme = useColorScheme();
@@ -18,6 +19,9 @@ const Home = () => {
       <Text>ELlo</Text>
       <Link href='/about' style={styles.link}>What's SchoolWay</Link>
       <Link href='/login' style={styles.link}>Log in</Link>
+      <Link href='/usertype' style={styles.link}>User type select</Link>
+      <Spacer/>
+      <Link href='/profile' style={styles.link}>Driver Profile</Link>
       <ThemedCard>
         <Text>Amo Amo</Text>
       </ThemedCard>

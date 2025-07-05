@@ -33,5 +33,23 @@ export const Colors = {
         text: '#444444',       // Dark Gray for light mode text
         link: '#2B3674',       // Dark Blue for links in light mode
         cardBackground: '#FDFDFD', // White for cards in light mode
+        border: '#E0E0E0',     // Light Gray for borders in light mode
+
+        inputBg: '#EEE', // Light Gray for input background in light mode
+        
+        // navbar styles
+        iconInactive: '#AAA', // Yellow for active icons
+        iconActive: '#FFC825', // Dark Blue for inactive icons
+        iconActiveBg: '#F0F0F0', // Light Gray for active icon background
+        iconActiveBlack: '#000', // Black for active icons in light mode
+        iconActiveBlue: '#2B3674', // Dark Blue for active icons in light mode
+
+        buttonBg: '#FFC825', // Dark Blue for button background in light mode
+        buttonPressedBg: '#1E1E1E', // Darker background for button when pressed in light mode
+        buttonText: '#FFFFFF', // White for button text in light mode
+        buttonTextPressed: '#000000', // Black for button text when pressed in light modeS
+        buttonBorder: '#2B3674', // Dark Blue for button border in light mode
+        buttonCornerRadius: 12, // Border radius for buttons in light mode
+        buttonPadding: 15, // Padding for buttons in light mode
     }
 };
